@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: tomato;
+}
+
+form{
+    margin: 100px auto;
+    box-shadow: 0.2px 0.1px 4px 0.2px;
+    width: 503px;
+    height: 500px;
+    padding: 50px;
+}
+img{
+    width: 100px;
+}
+h2{
+    font-size: 26px;
+    opacity: 0.7 ;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    
+    outline: none;
+}
+.check-box {
+    display: flex;
+}
+.check-box input{
+    width: 19px;
+}
+.line2 a{
+    text-decoration: none;
+    color: #0a65bc;
+}
+a.btn-netx {
+    display: block;
+    position: relative;
+    top: 77px;
+    right: -300px;
+    text-decoration: none;
+    background-color: #0a65bc;
+    width: 107px;
+    height: 32px;
+    text-align: center;
+    padding: 6px 0px;
+    color: #fff;
+}
